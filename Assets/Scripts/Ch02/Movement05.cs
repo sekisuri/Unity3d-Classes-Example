@@ -11,7 +11,7 @@ public class Movement05 : MonoBehaviour {
     public float speed = 10f;
     private Rigidbody rb;
     private Vector3 moveDir;
-    private float turnSpeed = 80;
+    private float turnSpeed = 80f;
 
     private void Awake()
     {
